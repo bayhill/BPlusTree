@@ -1,0 +1,11 @@
+---PROGRAM START---
+Dumping index file to console.. 
+--- HEADER INFO ---
+Block size: 38
+Key size: 4
+Pointer size: 4
+Root ID: 550
+Root is Leaf: false
+Tree Order: (not stored in header): 3
+--- STOP HEADER INFO ---
+---PROGRAM EXIT---

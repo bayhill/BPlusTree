@@ -1,0 +1,95 @@
+---PROGRAM START---
+Dumping index file to console.. 
+--- HEADER INFO ---
+Block size: 64
+Key size: 4
+Pointer size: 4
+Root ID: 3
+Root is Leaf: false
+Tree Order: (not stored in header): 6
+--- STOP HEADER INFO ---
+----- LeafNode 1 -----
+Parent ID: 0
+Key: 26843
+Key: 32074
+Key: 37729
+Key: 48460
+Key: 50852
+Key: 0
+Pointer: 26843
+Pointer: 32074
+Pointer: 37729
+Pointer: 48460
+Pointer: 50852
+Pointer: 0
+Pointer: 0
+----- LeafNode 2 -----
+Parent ID: 0
+Key: 61909
+Key: 66688
+Key: 78285
+Key: 79157
+Key: 0
+Key: 0
+Pointer: 61909
+Pointer: 66688
+Pointer: 78285
+Pointer: 79157
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 3 -----
+Parent ID: null
+Key: 53176
+Key: 61909
+Key: 81006
+Key: 0
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 4
+Pointer: 2
+Pointer: 5
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 4 -----
+Parent ID: 0
+Key: 53176
+Key: 53671
+Key: 58573
+Key: 0
+Key: 0
+Key: 0
+Pointer: 53176
+Pointer: 53671
+Pointer: 58573
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 5 -----
+Parent ID: 0
+Key: 81006
+Key: 98187
+Key: 98205
+Key: 0
+Key: 0
+Key: 0
+Pointer: 81006
+Pointer: 98187
+Pointer: 98205
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Dumping index file to console.. 
+--- HEADER INFO ---
+Block size: 64
+Key size: 4
+Pointer size: 4
+Root ID: 0
+Root is Leaf: false
+Tree Order: (not stored in header): 6
+--- STOP HEADER INFO ---
+---PROGRAM EXIT---

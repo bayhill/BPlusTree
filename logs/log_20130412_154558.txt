@@ -1,0 +1,874 @@
+---PROGRAM START---
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+No tree available, creating new tree.
+Block size:
+Key to insert:
+Inserting 54,54 into LeafNode 1
+This block has no keys, inserting at the beginning.
+----- LeafNode 1 -----
+Keys:
+[ 54 0 0 ]
+Pointers:
+[ 54 0 0 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Inserting 2,2 into LeafNode 1
+Found key larger than inserted value
+----- LeafNode 1 -----
+Keys:
+[ 2 54 0 ]
+Pointers:
+[ 2 54 0 ]
+----- LeafNode 1 -----
+Keys:
+[ 2 54 0 ]
+Pointers:
+[ 2 54 0 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Inserting 3,3 into LeafNode 1
+Found key larger than inserted value
+----- LeafNode 1 -----
+Keys:
+[ 2 3 54 ]
+Pointers:
+[ 2 3 54 ]
+----- LeafNode 1 -----
+Keys:
+[ 2 3 54 ]
+Pointers:
+[ 2 3 54 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 2 3 54 ]
+Pointers:
+[ 2 3 54 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Inserting 65,65 into LeafNode 1
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 2
+Moving <54,54> from 1 to 2.
+Inserting 54,54 into LeafNode 2
+This block has no keys, inserting at the beginning.
+----- LeafNode 2 -----
+Keys:
+[ 54 0 0 ]
+Pointers:
+[ 54 0 0 ]
+Moving <65,65> from 1 to 2.
+Inserting 65,65 into LeafNode 2
+Key is larger than any other key, appending.
+----- LeafNode 2 -----
+Keys:
+[ 54 65 0 ]
+Pointers:
+[ 54 65 0 ]
+Split LeftNode 1 was previously root, creating new root InternalNode w/ ID 3
+Setting smallest pointer: 1 in InternalNode 3
+Inserting 54,2 into InternalNode 3
+Key set are empty. Inserting at the beginning.
+----- LeafNode 1 -----
+Keys:
+[ 2 3 0 ]
+Pointers:
+[ 2 3 0 2 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 2 3 0 ]
+Pointers:
+[ 2 3 0 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 54 65 0 ]
+Pointers:
+[ 54 65 0 ]
+----- InternalNode 3 -----
+Keys:
+[ 54 0 0 ]
+Pointers:
+[ 1 2 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Searching for key in 3
+75 is greater than greatest key 54
+Set parent 3 for LeafNode 2
+Inserting 75,75 into LeafNode 2
+Key is larger than any other key, appending.
+----- LeafNode 2 -----
+Keys:
+[ 54 65 75 ]
+Pointers:
+[ 54 65 75 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 2 3 0 ]
+Pointers:
+[ 2 3 0 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 54 65 75 ]
+Pointers:
+[ 54 65 75 ]
+----- InternalNode 3 -----
+Keys:
+[ 54 0 0 ]
+Pointers:
+[ 1 2 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Searching for key in 3
+1 is smaller than smallest key 54
+Set parent 3 for LeafNode 1
+Inserting 1,1 into LeafNode 1
+Found key larger than inserted value
+----- LeafNode 1 -----
+Keys:
+[ 1 2 3 ]
+Pointers:
+[ 1 2 3 2 ]
+----- LeafNode 1 -----
+Keys:
+[ 1 2 3 ]
+Pointers:
+[ 1 2 3 2 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 1 2 3 ]
+Pointers:
+[ 1 2 3 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 54 65 75 ]
+Pointers:
+[ 54 65 75 ]
+----- InternalNode 3 -----
+Keys:
+[ 54 0 0 ]
+Pointers:
+[ 1 2 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Searching for key in 3
+85 is greater than greatest key 54
+Set parent 3 for LeafNode 2
+Inserting 85,85 into LeafNode 2
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 4
+Moving <75,75> from 2 to 4.
+Inserting 75,75 into LeafNode 4
+This block has no keys, inserting at the beginning.
+----- LeafNode 4 -----
+Keys:
+[ 75 0 0 ]
+Pointers:
+[ 75 0 0 ]
+Moving <85,85> from 2 to 4.
+Inserting 85,85 into LeafNode 4
+Key is larger than any other key, appending.
+----- LeafNode 4 -----
+Keys:
+[ 75 85 0 ]
+Pointers:
+[ 75 85 0 ]
+Pushing up right node ID 4 to parent ID 3
+Inserting 75,4 into InternalNode 3
+Key is larger than any other key, appending.
+----- InternalNode 3 -----
+Keys:
+[ 54 75 0 ]
+Pointers:
+[ 1 2 4 0 ]
+----- LeafNode 2 -----
+Keys:
+[ 54 65 0 ]
+Pointers:
+[ 54 65 0 4 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 1 2 3 ]
+Pointers:
+[ 1 2 3 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 54 65 0 ]
+Pointers:
+[ 54 65 0 4 ]
+----- InternalNode 3 -----
+Keys:
+[ 54 75 0 ]
+Pointers:
+[ 1 2 4 0 ]
+----- LeafNode 4 -----
+Keys:
+[ 75 85 0 ]
+Pointers:
+[ 75 85 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Searching for key in 3
+95 is greater than greatest key 75
+Set parent 3 for LeafNode 4
+Inserting 95,95 into LeafNode 4
+Key is larger than any other key, appending.
+----- LeafNode 4 -----
+Keys:
+[ 75 85 95 ]
+Pointers:
+[ 75 85 95 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 1 2 3 ]
+Pointers:
+[ 1 2 3 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 54 65 0 ]
+Pointers:
+[ 54 65 0 4 ]
+----- InternalNode 3 -----
+Keys:
+[ 54 75 0 ]
+Pointers:
+[ 1 2 4 0 ]
+----- LeafNode 4 -----
+Keys:
+[ 75 85 95 ]
+Pointers:
+[ 75 85 95 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Searching for key in 3
+100 is greater than greatest key 75
+Set parent 3 for LeafNode 4
+Inserting 100,100 into LeafNode 4
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 5
+Moving <95,95> from 4 to 5.
+Inserting 95,95 into LeafNode 5
+This block has no keys, inserting at the beginning.
+----- LeafNode 5 -----
+Keys:
+[ 95 0 0 ]
+Pointers:
+[ 95 0 0 ]
+Moving <100,100> from 4 to 5.
+Inserting 100,100 into LeafNode 5
+Key is larger than any other key, appending.
+----- LeafNode 5 -----
+Keys:
+[ 95 100 0 ]
+Pointers:
+[ 95 100 0 ]
+Pushing up right node ID 5 to parent ID 3
+Inserting 95,5 into InternalNode 3
+Key is larger than any other key, appending.
+----- InternalNode 3 -----
+Keys:
+[ 54 75 95 ]
+Pointers:
+[ 1 2 4 5 ]
+----- LeafNode 4 -----
+Keys:
+[ 75 85 0 ]
+Pointers:
+[ 75 85 0 5 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 1 2 3 ]
+Pointers:
+[ 1 2 3 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 54 65 0 ]
+Pointers:
+[ 54 65 0 4 ]
+----- InternalNode 3 -----
+Keys:
+[ 54 75 95 ]
+Pointers:
+[ 1 2 4 5 ]
+----- LeafNode 4 -----
+Keys:
+[ 75 85 0 ]
+Pointers:
+[ 75 85 0 5 ]
+----- LeafNode 5 -----
+Keys:
+[ 95 100 0 ]
+Pointers:
+[ 95 100 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Searching for key in 3
+Set parent 3 for LeafNode 2
+Inserting 66,66 into LeafNode 2
+Key is larger than any other key, appending.
+----- LeafNode 2 -----
+Keys:
+[ 54 65 66 ]
+Pointers:
+[ 54 65 66 4 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 1 2 3 ]
+Pointers:
+[ 1 2 3 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 54 65 66 ]
+Pointers:
+[ 54 65 66 4 ]
+----- InternalNode 3 -----
+Keys:
+[ 54 75 95 ]
+Pointers:
+[ 1 2 4 5 ]
+----- LeafNode 4 -----
+Keys:
+[ 75 85 0 ]
+Pointers:
+[ 75 85 0 5 ]
+----- LeafNode 5 -----
+Keys:
+[ 95 100 0 ]
+Pointers:
+[ 95 100 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Searching for key in 3
+150 is greater than greatest key 95
+Set parent 3 for LeafNode 5
+Inserting 150,150 into LeafNode 5
+Key is larger than any other key, appending.
+----- LeafNode 5 -----
+Keys:
+[ 95 100 150 ]
+Pointers:
+[ 95 100 150 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Searching for key in 3
+200 is greater than greatest key 95
+Set parent 3 for LeafNode 5
+Inserting 200,200 into LeafNode 5
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 6
+Moving <150,150> from 5 to 6.
+Inserting 150,150 into LeafNode 6
+This block has no keys, inserting at the beginning.
+----- LeafNode 6 -----
+Keys:
+[ 150 0 0 ]
+Pointers:
+[ 150 0 0 ]
+Moving <200,200> from 5 to 6.
+Inserting 200,200 into LeafNode 6
+Key is larger than any other key, appending.
+----- LeafNode 6 -----
+Keys:
+[ 150 200 0 ]
+Pointers:
+[ 150 200 0 ]
+Pushing up right node ID 6 to parent ID 3
+Inserting 150,6 into InternalNode 3
+Key is larger than any other key, appending.
+This InternalNode is full. Splitting.
+Created new InternalNode with ID 7
+Setting smallest pointer: 5 in InternalNode 7
+Moving <150,6> from 3 to 7.
+Inserting 150,6 into InternalNode 7
+Key set are empty. Inserting at the beginning.
+Split InternalNode 3 was previously root, creating new root InternalNode w/ ID 8
+Setting smallest pointer: 3 in InternalNode 8
+Inserting 95,7 into InternalNode 8
+Key set are empty. Inserting at the beginning.
+----- InternalNode 3 -----
+Keys:
+[ 54 75 0 ]
+Pointers:
+[ 1 2 4 0 ]
+----- LeafNode 5 -----
+Keys:
+[ 95 100 0 ]
+Pointers:
+[ 95 100 0 6 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 1 2 3 ]
+Pointers:
+[ 1 2 3 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 54 65 66 ]
+Pointers:
+[ 54 65 66 4 ]
+----- InternalNode 3 -----
+Keys:
+[ 54 75 0 ]
+Pointers:
+[ 1 2 4 0 ]
+----- LeafNode 4 -----
+Keys:
+[ 75 85 0 ]
+Pointers:
+[ 75 85 0 5 ]
+----- LeafNode 5 -----
+Keys:
+[ 95 100 0 ]
+Pointers:
+[ 95 100 0 6 ]
+----- LeafNode 6 -----
+Keys:
+[ 150 200 0 ]
+Pointers:
+[ 150 200 0 ]
+----- InternalNode 7 -----
+Keys:
+[ 150 0 0 ]
+Pointers:
+[ 5 6 0 0 ]
+----- InternalNode 8 -----
+Keys:
+[ 95 0 0 ]
+Pointers:
+[ 3 7 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Deleted index file: true
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+No tree available, creating new tree.
+Block size:
+Key to insert:
+Inserting 20,20 into LeafNode 1
+This block has no keys, inserting at the beginning.
+----- LeafNode 1 -----
+Keys:
+[ 20 0 0 0 0 0 ]
+Pointers:
+[ 20 0 0 0 0 0 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 20 0 0 0 0 0 ]
+Pointers:
+[ 20 0 0 0 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Inserting 30,30 into LeafNode 1
+Key is larger than any other key, appending.
+----- LeafNode 1 -----
+Keys:
+[ 20 30 0 0 0 0 ]
+Pointers:
+[ 20 30 0 0 0 0 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Inserting 4,4 into LeafNode 1
+Found key larger than inserted value
+----- LeafNode 1 -----
+Keys:
+[ 4 20 30 0 0 0 ]
+Pointers:
+[ 4 20 30 0 0 0 ]
+----- LeafNode 1 -----
+Keys:
+[ 4 20 30 0 0 0 ]
+Pointers:
+[ 4 20 30 0 0 0 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Inserting 2,2 into LeafNode 1
+Found key larger than inserted value
+----- LeafNode 1 -----
+Keys:
+[ 2 4 20 30 0 0 ]
+Pointers:
+[ 2 4 20 30 0 0 ]
+----- LeafNode 1 -----
+Keys:
+[ 2 4 20 30 0 0 ]
+Pointers:
+[ 2 4 20 30 0 0 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Inserting 50,50 into LeafNode 1
+Key is larger than any other key, appending.
+----- LeafNode 1 -----
+Keys:
+[ 2 4 20 30 50 0 ]
+Pointers:
+[ 2 4 20 30 50 0 ]
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Inserting 3,3 into LeafNode 1
+Found key larger than inserted value
+----- LeafNode 1 -----

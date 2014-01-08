@@ -1,0 +1,147 @@
+---PROGRAM START---
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+No index tree available, returning to main menu..
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+No tree available, creating new tree.
+Block size:
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 6 0 0 ]
+Pointers:
+[ 6 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 1 6 10 ]
+Pointers:
+[ 1 6 10 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 20 40 0 ]
+Pointers:
+[ 20 40 0 ]
+----- InternalNode 3 -----
+Keys:
+[ 20 0 0 ]
+Pointers:
+[ 1 2 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+---PROGRAM EXIT---

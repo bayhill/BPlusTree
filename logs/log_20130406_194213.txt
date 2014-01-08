@@ -1,0 +1,127 @@
+---PROGRAM START---
+Dumping index file to console.. 
+--- HEADER INFO ---
+Block size: 64
+Key size: 4
+Pointer size: 4
+Root ID: 3
+Root is Leaf: false
+Tree Order: (not stored in header): 6
+--- STOP HEADER INFO ---
+----- LeafNode 1 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 12
+Byte offset for first empty pointer: 12
+Key: 1
+Key: 2
+Key: 3
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 3
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 2 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 12
+Byte offset for first empty pointer: 12
+Key: 4
+Key: 5
+Key: 6
+Key: 0
+Key: 0
+Pointer: 4
+Pointer: 5
+Pointer: 6
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 3 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 20
+Byte offset for first empty pointer: 24
+Key: 4
+Key: 7
+Key: 10
+Key: 13
+Key: 16
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 4
+Pointer: 5
+Pointer: 6
+Pointer: 7
+Pointer: 0
+Pointer: 0
+----- LeafNode 4 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 12
+Byte offset for first empty pointer: 12
+Key: 7
+Key: 8
+Key: 9
+Key: 0
+Key: 0
+Pointer: 7
+Pointer: 8
+Pointer: 9
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 5 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 12
+Byte offset for first empty pointer: 12
+Key: 10
+Key: 11
+Key: 12
+Key: 0
+Key: 0
+Pointer: 10
+Pointer: 11
+Pointer: 12
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 6 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 12
+Byte offset for first empty pointer: 12
+Key: 13
+Key: 14
+Key: 15
+Key: 0
+Key: 0
+Pointer: 13
+Pointer: 14
+Pointer: 15
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 7 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 16
+Byte offset for first empty pointer: 16
+Key: 16
+Key: 17
+Key: 18
+Key: 19
+Key: 0
+Pointer: 16
+Pointer: 17
+Pointer: 18
+Pointer: 19
+Pointer: 0
+Pointer: 0
+---PROGRAM EXIT---

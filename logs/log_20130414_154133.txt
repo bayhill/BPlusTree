@@ -1,0 +1,957 @@
+---PROGRAM START---
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+No tree available, creating new tree.
+Block size:
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 10 20 30 ]
+Pointers:
+[ 10 20 30 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 40 50 0 ]
+Pointers:
+[ 40 50 0 4 ]
+----- InternalNode 3 -----
+Keys:
+[ 40 60 0 ]
+Pointers:
+[ 1 2 4 0 ]
+----- LeafNode 4 -----
+Keys:
+[ 60 100 0 ]
+Pointers:
+[ 60 100 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Tree height: 2
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Deleted index file: true
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Specify block size of the to be read index file:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 20 0 0 ]
+Pointers:
+[ 20 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 20 0 0 ]
+Pointers:
+[ 20 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 20 30 0 ]
+Pointers:
+[ 20 30 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 10 20 0 ]
+Pointers:
+[ 10 20 0 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 30 50 0 ]
+Pointers:
+[ 30 50 0 ]
+----- InternalNode 3 -----
+Keys:
+[ 30 0 0 ]
+Pointers:
+[ 1 2 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 10 20 0 ]
+Pointers:
+[ 10 20 0 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 30 50 60 ]
+Pointers:
+[ 30 50 60 ]
+----- InternalNode 3 -----
+Keys:
+[ 30 0 0 ]
+Pointers:
+[ 1 2 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 10 20 0 ]
+Pointers:
+[ 10 20 0 2 ]
+----- LeafNode 2 -----
+Keys:
+[ 30 50 0 ]
+Pointers:
+[ 30 50 0 4 ]
+----- InternalNode 3 -----
+Keys:
+[ 30 60 0 ]
+Pointers:
+[ 1 2 4 0 ]
+----- LeafNode 4 -----
+Keys:
+[ 60 70 0 ]
+Pointers:
+[ 60 70 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Key to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 1 5 0 ]
+Pointers:
+[ 1 5 0 5 ]
+----- LeafNode 2 -----
+Keys:
+[ 30 50 0 ]
+Pointers:
+[ 30 50 0 4 ]
+----- InternalNode 3 -----
+Keys:
+[ 10 30 60 ]
+Pointers:
+[ 1 5 2 4 ]
+----- LeafNode 4 -----
+Keys:
+[ 60 70 0 ]
+Pointers:
+[ 60 70 0 ]
+----- LeafNode 5 -----
+Keys:
+[ 10 20 0 ]
+Pointers:
+[ 10 20 0 2 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Amount of key, value pairs to insert:
+Done.
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Dumping index file to console.. 
+
+----- LeafNode 1 -----
+Keys:
+[ 1 5 0 ]
+Pointers:
+[ 1 5 0 5 ]
+----- LeafNode 2 -----
+Keys:
+[ 30 50 0 ]
+Pointers:
+[ 30 50 0 4 ]
+----- InternalNode 3 -----
+Keys:
+[ 10 30 0 ]
+Pointers:
+[ 1 5 2 0 ]
+----- LeafNode 4 -----
+Keys:
+[ 60 70 10154 ]
+Pointers:
+[ 60 70 10154 34 ]
+----- LeafNode 5 -----
+Keys:
+[ 10 20 0 ]
+Pointers:
+[ 10 20 0 2 ]
+----- LeafNode 6 -----
+Keys:
+[ 63851 65170 0 ]
+Pointers:
+[ 63851 65170 0 41 ]
+----- InternalNode 7 -----
+Keys:
+[ 13412 14083 0 ]
+Pointers:
+[ 4 34 14 0 ]
+----- InternalNode 8 -----
+Keys:
+[ 60 17495 19568 ]
+Pointers:
+[ 3 7 67 36 ]
+----- LeafNode 9 -----
+Keys:
+[ 87770 87896 89391 ]
+Pointers:
+[ 87770 87896 89391 27 ]
+----- LeafNode 10 -----
+Keys:
+[ 49296 49690 52579 ]
+Pointers:
+[ 49296 49690 52579 18 ]
+----- LeafNode 11 -----
+Keys:
+[ 69070 70636 0 ]
+Pointers:
+[ 69070 70636 0 59 ]
+----- InternalNode 12 -----
+Keys:
+[ 71882 73142 0 ]
+Pointers:
+[ 11 59 31 0 ]
+----- LeafNode 13 -----
+Keys:
+[ 56907 58674 59987 ]
+Pointers:
+[ 56907 58674 59987 22 ]
+----- LeafNode 14 -----
+Keys:
+[ 14083 15040 0 ]
+Pointers:
+[ 14083 15040 0 46 ]
+----- InternalNode 15 -----
+Keys:
+[ 60419 61326 0 ]
+Pointers:
+[ 13 22 47 0 ]
+----- LeafNode 16 -----
+Keys:
+[ 97563 99954 0 ]
+Pointers:
+[ 97563 99954 0 ]
+----- LeafNode 17 -----
+Keys:
+[ 19568 19692 19973 ]
+Pointers:
+[ 19568 19692 19973 35 ]
+----- LeafNode 18 -----
+Keys:
+[ 53409 53732 0 ]
+Pointers:
+[ 53409 53732 0 28 ]
+----- InternalNode 19 -----
+Keys:
+[ 53409 54238 0 ]
+Pointers:
+[ 10 18 28 0 ]
+----- InternalNode 20 -----
+Keys:
+[ 63851 69070 0 ]
+Pointers:
+[ 15 48 12 0 ]
+----- InternalNode 21 -----
+Keys:
+[ 24441 56907 0 ]
+Pointers:
+[ 8 37 20 0 ]
+----- LeafNode 22 -----
+Keys:
+[ 60419 61188 0 ]
+Pointers:
+[ 60419 61188 0 47 ]
+----- LeafNode 23 -----
+Keys:
+[ 24441 25871 0 ]
+Pointers:
+[ 24441 25871 0 50 ]
+----- LeafNode 24 -----
+Keys:
+[ 81835 82785 0 ]
+Pointers:
+[ 81835 82785 0 65 ]
+----- LeafNode 25 -----
+Keys:
+[ 78607 79838 80046 ]
+Pointers:
+[ 78607 79838 80046 54 ]
+----- InternalNode 26 -----
+Keys:
+[ 89687 93788 0 ]
+Pointers:
+[ 9 27 38 0 ]
+----- LeafNode 27 -----
+Keys:
+[ 89687 91052 93162 ]
+Pointers:
+[ 89687 91052 93162 38 ]
+----- LeafNode 28 -----
+Keys:
+[ 54238 55857 0 ]
+Pointers:
+[ 54238 55857 0 13 ]
+----- LeafNode 29 -----
+Keys:
+[ 41548 41733 44047 ]
+Pointers:
+[ 41548 41733 44047 42 ]
+----- InternalNode 30 -----
+Keys:
+[ 26059 28986 36340 ]
+Pointers:
+[ 23 50 53 33 ]
+----- LeafNode 31 -----
+Keys:
+[ 73142 73281 73510 ]
+Pointers:
+[ 73142 73281 73510 60 ]
+----- LeafNode 32 -----
+Keys:
+[ 46447 48881 0 ]
+Pointers:
+[ 46447 48881 0 10 ]
+----- LeafNode 33 -----
+Keys:
+[ 36340 37375 0 ]
+Pointers:
+[ 36340 37375 0 51 ]
+----- LeafNode 34 -----
+Keys:
+[ 13412 13641 13812 ]
+Pointers:
+[ 13412 13641 13812 14 ]
+----- LeafNode 35 -----
+Keys:
+[ 20877 21229 0 ]
+Pointers:
+[ 20877 21229 0 56 ]
+----- InternalNode 36 -----
+Keys:
+[ 20877 23234 0 ]
+Pointers:
+[ 17 35 56 0 ]
+----- InternalNode 37 -----
+Keys:
+[ 37778 41548 49296 ]
+Pointers:
+[ 30 52 40 19 ]
+----- LeafNode 38 -----
+Keys:
+[ 93788 95038 0 ]
+Pointers:
+[ 93788 95038 0 68 ]
+----- LeafNode 39 -----
+Keys:
+[ 40349 40539 40620 ]
+Pointers:
+[ 40349 40539 40620 29 ]
+----- InternalNode 40 -----
+Keys:
+[ 44583 46447 0 ]
+Pointers:
+[ 29 42 32 0 ]
+----- LeafNode 41 -----
+Keys:
+[ 65340 66243 66632 ]
+Pointers:
+[ 65340 66243 66632 57 ]
+----- LeafNode 42 -----
+Keys:
+[ 44583 45045 45988 ]
+Pointers:
+[ 44583 45045 45988 32 ]
+----- LeafNode 43 -----
+Keys:
+[ 84571 85747 0 ]
+Pointers:
+[ 84571 85747 0 58 ]
+----- InternalNode 44 -----
+Keys:
+[ 83256 84571 86125 ]
+Pointers:
+[ 24 65 43 58 ]
+----- LeafNode 45 -----
+Keys:
+[ 75858 77795 0 ]
+Pointers:
+[ 75858 77795 0 25 ]
+----- LeafNode 46 -----
+Keys:
+[ 17495 18246 0 ]
+Pointers:
+[ 17495 18246 0 66 ]
+----- LeafNode 47 -----
+Keys:
+[ 61326 61778 0 ]
+Pointers:
+[ 61326 61778 0 6 ]
+----- InternalNode 48 -----
+Keys:
+[ 65340 67041 0 ]
+Pointers:
+[ 6 41 57 0 ]
+----- InternalNode 49 -----
+Keys:
+[ 87770 95157 0 ]
+Pointers:
+[ 44 26 69 0 ]
+----- LeafNode 50 -----
+Keys:
+[ 26059 27293 28298 ]
+Pointers:
+[ 26059 27293 28298 53 ]
+----- LeafNode 51 -----
+Keys:
+[ 37778 38297 38868 ]
+Pointers:
+[ 37778 38297 38868 39 ]
+----- InternalNode 52 -----
+Keys:
+[ 40349 0 0 ]
+Pointers:
+[ 51 39 0 0 ]
+----- LeafNode 53 -----
+Keys:
+[ 28986 31673 32449 ]
+Pointers:
+[ 28986 31673 32449 33 ]
+----- LeafNode 54 -----
+Keys:
+[ 80175 80287 81228 ]
+Pointers:
+[ 80175 80287 81228 24 ]
+----- InternalNode 55 -----
+Keys:
+[ 80175 0 0 ]
+Pointers:
+[ 25 54 0 0 ]
+----- LeafNode 56 -----
+Keys:
+[ 23234 24298 0 ]
+Pointers:
+[ 23234 24298 0 23 ]
+----- LeafNode 57 -----
+Keys:
+[ 67041 67514 67948 ]
+Pointers:
+[ 67041 67514 67948 11 ]
+----- LeafNode 58 -----
+Keys:
+[ 86125 86813 0 ]
+Pointers:
+[ 86125 86813 0 9 ]
+----- LeafNode 59 -----
+Keys:
+[ 71882 72782 0 ]
+Pointers:
+[ 71882 72782 0 31 ]
+----- LeafNode 60 -----
+Keys:
+[ 75402 75721 0 ]
+Pointers:
+[ 75402 75721 0 45 ]
+----- InternalNode 61 -----
+Keys:
+[ 75858 0 0 ]
+Pointers:
+[ 60 45 0 0 ]
+----- InternalNode 62 -----
+Keys:
+[ 78607 0 0 ]
+Pointers:
+[ 61 55 0 0 ]
+----- InternalNode 63 -----
+Keys:
+[ 81835 0 0 ]
+Pointers:
+[ 62 49 0 0 ]
+----- InternalNode 64 -----
+Keys:
+[ 75402 0 0 ]
+Pointers:
+[ 21 63 0 0 ]
+----- LeafNode 65 -----
+Keys:
+[ 83256 83403 0 ]
+Pointers:
+[ 83256 83403 0 43 ]
+----- LeafNode 66 -----
+Keys:
+[ 18569 18930 0 ]
+Pointers:
+[ 18569 18930 0 17 ]
+----- InternalNode 67 -----
+Keys:
+[ 18569 0 0 ]
+Pointers:
+[ 46 66 0 0 ]
+----- LeafNode 68 -----
+Keys:
+[ 95157 97433 0 ]
+Pointers:
+[ 95157 97433 0 16 ]
+----- InternalNode 69 -----
+Keys:
+[ 97563 0 0 ]
+Pointers:
+[ 68 16 0 0 ]
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Tree height: 5
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+Deleted index file: true
+-----------------
+Main menu
+[C]lear tree (delete index file)
+[D]ump index to console
+[G]enerate random index BPT
+[H]eight of tree
+[I]nsert
+I[M]port index
+[Q]uery
+[R]ead database table from file
+[E]xit
+-----------------
+---PROGRAM EXIT---

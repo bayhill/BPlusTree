@@ -1,0 +1,1621 @@
+---PROGRAM START---
+Tree was empty. Creating new root.
+Inserting 1,1 into LeafNode 1
+Last filled position: 0
+LeafNode capacity: 8
+Inserting 1,1 into 1
+KEY LENGTH 12
+This block has no keys, inserting at the beginning.
+Last empty byte index of keys: 4
+Key size * Order 12
+----- LeafNode 1 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 1
+Key: 0
+Pointer: 1
+Pointer: 0
+Pointer: 0
+Inserting 2,2 into LeafNode 1
+Last filled position: 4
+LeafNode capacity: 8
+Inserting 2,2 into 1
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 8
+Key size * Order 12
+----- LeafNode 1 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 1
+Key: 2
+Pointer: 1
+Pointer: 2
+Pointer: 0
+Inserting 3,3 into LeafNode 1
+Last filled position: 8
+LeafNode capacity: 8
+Inserting 3,3 into 1
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 12
+Key size * Order 12
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 2
+Byte index to split at 8
+Moving <3,3> from 1 to 2.
+Inserting 3,3 into LeafNode 2
+Last filled position: 0
+LeafNode capacity: 8
+Inserting 3,3 into 2
+KEY LENGTH 12
+This block has no keys, inserting at the beginning.
+Last empty byte index of keys: 4
+Key size * Order 12
+----- LeafNode 2 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 3
+Key: 0
+Pointer: 3
+Pointer: 0
+Pointer: 0
+Split LeftNode was previously root, creating new root InternalNode w/ ID 3
+Setting smallest pointer: 1 in InternalNode 3
+Inserting 3,2 into InternalNode 3
+Key set are empty. Inserting at the beginning.
+Setting parent ID 3 for 1
+Setting parent ID 3 for 2
+----- LeafNode 1 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 1
+Key: 2
+Pointer: 1
+Pointer: 2
+Pointer: 0
+Last index in keys: 4
+Last key: 3
+Last index in pointers: 8
+Last pointer: 2
+4 is greater than greatest key 3
+Found block for key 2
+----- LeafNode 2 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 3
+Key: 0
+Pointer: 3
+Pointer: 0
+Pointer: 0
+Inserting 4,4 into LeafNode 2
+Last filled position: 4
+LeafNode capacity: 8
+Inserting 4,4 into 2
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 8
+Key size * Order 12
+----- LeafNode 2 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 3
+Key: 4
+Pointer: 3
+Pointer: 4
+Pointer: 0
+Last index in keys: 4
+Last key: 3
+Last index in pointers: 8
+Last pointer: 2
+5 is greater than greatest key 3
+Found block for key 2
+----- LeafNode 2 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 3
+Key: 4
+Pointer: 3
+Pointer: 4
+Pointer: 0
+Inserting 5,5 into LeafNode 2
+Last filled position: 8
+LeafNode capacity: 8
+Inserting 5,5 into 2
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 12
+Key size * Order 12
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 4
+Byte index to split at 8
+Moving <5,5> from 2 to 4.
+Inserting 5,5 into LeafNode 4
+Last filled position: 0
+LeafNode capacity: 8
+Inserting 5,5 into 4
+KEY LENGTH 12
+This block has no keys, inserting at the beginning.
+Last empty byte index of keys: 4
+Key size * Order 12
+----- LeafNode 4 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 5
+Key: 0
+Pointer: 5
+Pointer: 0
+Pointer: 0
+header length: 9
+Pushing up right node ID 4 to parent ID 3
+Inserting 5,4 into InternalNode 3
+Key is larger than any other key, appending.
+Last filled key position after insert: 8
+Last filled pointer position after insert: 12
+Last empty byte index of keys: 8
+Key size * Order: 12
+----- InternalNode 3 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 12
+Key: 3
+Key: 5
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 4
+Pointer: 0
+Pointer: 0
+Setting parent ID 3 for 4
+----- LeafNode 2 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 3
+Key: 4
+Pointer: 3
+Pointer: 4
+Pointer: 0
+Last index in keys: 8
+Last key: 5
+Last index in pointers: 12
+Last pointer: 4
+6 is greater than greatest key 5
+Found block for key 4
+----- LeafNode 4 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 5
+Key: 0
+Pointer: 5
+Pointer: 0
+Pointer: 0
+Inserting 6,6 into LeafNode 4
+Last filled position: 4
+LeafNode capacity: 8
+Inserting 6,6 into 4
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 8
+Key size * Order 12
+----- LeafNode 4 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 5
+Key: 6
+Pointer: 5
+Pointer: 6
+Pointer: 0
+Last index in keys: 8
+Last key: 5
+Last index in pointers: 12
+Last pointer: 4
+7 is greater than greatest key 5
+Found block for key 4
+----- LeafNode 4 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 5
+Key: 6
+Pointer: 5
+Pointer: 6
+Pointer: 0
+Inserting 7,7 into LeafNode 4
+Last filled position: 8
+LeafNode capacity: 8
+Inserting 7,7 into 4
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 12
+Key size * Order 12
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 5
+Byte index to split at 8
+Moving <7,7> from 4 to 5.
+Inserting 7,7 into LeafNode 5
+Last filled position: 0
+LeafNode capacity: 8
+Inserting 7,7 into 5
+KEY LENGTH 12
+This block has no keys, inserting at the beginning.
+Last empty byte index of keys: 4
+Key size * Order 12
+----- LeafNode 5 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 7
+Key: 0
+Pointer: 7
+Pointer: 0
+Pointer: 0
+header length: 9
+Pushing up right node ID 5 to parent ID 3
+Inserting 7,5 into InternalNode 3
+Key is larger than any other key, appending.
+Last filled key position after insert: 12
+Last filled pointer position after insert: 16
+Last empty byte index of keys: 12
+Key size * Order: 12
+----- InternalNode 3 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 12
+Byte offset for first empty pointer: 16
+Key: 3
+Key: 5
+Key: 7
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 4
+Pointer: 5
+Pointer: 0
+Setting parent ID 3 for 5
+----- LeafNode 4 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 5
+Key: 6
+Pointer: 5
+Pointer: 6
+Pointer: 0
+Last index in keys: 12
+Last key: 7
+Last index in pointers: 16
+Last pointer: 5
+8 is greater than greatest key 7
+Found block for key 5
+----- LeafNode 5 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 7
+Key: 0
+Pointer: 7
+Pointer: 0
+Pointer: 0
+Inserting 8,8 into LeafNode 5
+Last filled position: 4
+LeafNode capacity: 8
+Inserting 8,8 into 5
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 8
+Key size * Order 12
+----- LeafNode 5 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 7
+Key: 8
+Pointer: 7
+Pointer: 8
+Pointer: 0
+Last index in keys: 12
+Last key: 7
+Last index in pointers: 16
+Last pointer: 5
+9 is greater than greatest key 7
+Found block for key 5
+----- LeafNode 5 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 7
+Key: 8
+Pointer: 7
+Pointer: 8
+Pointer: 0
+Inserting 9,9 into LeafNode 5
+Last filled position: 8
+LeafNode capacity: 8
+Inserting 9,9 into 5
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 12
+Key size * Order 12
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 6
+Byte index to split at 8
+Moving <9,9> from 5 to 6.
+Inserting 9,9 into LeafNode 6
+Last filled position: 0
+LeafNode capacity: 8
+Inserting 9,9 into 6
+KEY LENGTH 12
+This block has no keys, inserting at the beginning.
+Last empty byte index of keys: 4
+Key size * Order 12
+----- LeafNode 6 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 9
+Key: 0
+Pointer: 9
+Pointer: 0
+Pointer: 0
+header length: 9
+Pushing up right node ID 6 to parent ID 3
+Inserting 9,6 into InternalNode 3
+Key is larger than any other key, appending.
+Last filled key position after insert: 16
+Last filled pointer position after insert: 20
+Last empty byte index of keys: 16
+Key size * Order: 12
+This InternalNode is full. Splitting.
+Created new InternalNode with ID 7
+Byte index to split keys at 8
+Byte index to split pointers at 12
+Key split: ceil(n/2) 2.0
+Pointer split: ceil(order+2/2) 3.0
+Setting smallest pointer: 5 in InternalNode 7
+Moving <9,6> from 3 to 7.
+Inserting 9,6 into InternalNode 7
+Key set are empty. Inserting at the beginning.
+Setting parent ID 7 for 6
+Split InternalNode was previously root, creating new root InternalNode w/ ID 8
+Setting smallest pointer: 3 in InternalNode 8
+Inserting 7,7 into InternalNode 8
+Key set are empty. Inserting at the beginning.
+Setting parent ID 8 for 3
+Setting parent ID 8 for 7
+----- InternalNode 3 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 12
+Key: 3
+Key: 5
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 4
+Pointer: 0
+Pointer: 0
+Setting parent ID 3 for 6
+----- LeafNode 5 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 7
+Key: 8
+Pointer: 7
+Pointer: 8
+Pointer: 0
+Last index in keys: 4
+Last key: 7
+Last index in pointers: 8
+Last pointer: 7
+10 is greater than greatest key 7
+Searching for key in 7
+----- InternalNode 7 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 9
+Key: 0
+Key: 0
+Key: 0
+Pointer: 5
+Pointer: 6
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Last index in keys: 4
+Last key: 9
+Last index in pointers: 8
+Last pointer: 6
+10 is greater than greatest key 9
+Found block for key 6
+----- LeafNode 6 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 9
+Key: 0
+Pointer: 9
+Pointer: 0
+Pointer: 0
+Inserting 10,10 into LeafNode 6
+Last filled position: 4
+LeafNode capacity: 8
+Inserting 10,10 into 6
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 8
+Key size * Order 12
+----- LeafNode 6 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 9
+Key: 10
+Pointer: 9
+Pointer: 10
+Pointer: 0
+Last index in keys: 4
+Last key: 7
+Last index in pointers: 8
+Last pointer: 7
+11 is greater than greatest key 7
+Searching for key in 7
+----- InternalNode 7 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 9
+Key: 0
+Key: 0
+Key: 0
+Pointer: 5
+Pointer: 6
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Last index in keys: 4
+Last key: 9
+Last index in pointers: 8
+Last pointer: 6
+11 is greater than greatest key 9
+Found block for key 6
+----- LeafNode 6 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 9
+Key: 10
+Pointer: 9
+Pointer: 10
+Pointer: 0
+Inserting 11,11 into LeafNode 6
+Last filled position: 8
+LeafNode capacity: 8
+Inserting 11,11 into 6
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 12
+Key size * Order 12
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 9
+Byte index to split at 8
+Moving <11,11> from 6 to 9.
+Inserting 11,11 into LeafNode 9
+Last filled position: 0
+LeafNode capacity: 8
+Inserting 11,11 into 9
+KEY LENGTH 12
+This block has no keys, inserting at the beginning.
+Last empty byte index of keys: 4
+Key size * Order 12
+----- LeafNode 9 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 11
+Key: 0
+Pointer: 11
+Pointer: 0
+Pointer: 0
+header length: 9
+Pushing up right node ID 9 to parent ID 3
+Inserting 11,9 into InternalNode 3
+Key is larger than any other key, appending.
+Last filled key position after insert: 12
+Last filled pointer position after insert: 16
+Last empty byte index of keys: 12
+Key size * Order: 12
+----- InternalNode 3 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 12
+Byte offset for first empty pointer: 16
+Key: 3
+Key: 5
+Key: 11
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 4
+Pointer: 9
+Pointer: 0
+Setting parent ID 3 for 9
+----- LeafNode 6 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 9
+Key: 10
+Pointer: 9
+Pointer: 10
+Pointer: 0
+Last index in keys: 4
+Last key: 7
+Last index in pointers: 8
+Last pointer: 7
+12 is greater than greatest key 7
+Searching for key in 7
+----- InternalNode 7 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 9
+Key: 0
+Key: 0
+Key: 0
+Pointer: 5
+Pointer: 6
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Last index in keys: 4
+Last key: 9
+Last index in pointers: 8
+Last pointer: 6
+12 is greater than greatest key 9
+Found block for key 6
+----- LeafNode 6 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 9
+Key: 10
+Pointer: 9
+Pointer: 10
+Pointer: 0
+Inserting 12,12 into LeafNode 6
+Last filled position: 8
+LeafNode capacity: 8
+Inserting 12,12 into 6
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 12
+Key size * Order 12
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 10
+Byte index to split at 8
+Moving <12,12> from 6 to 10.
+Inserting 12,12 into LeafNode 10
+Last filled position: 0
+LeafNode capacity: 8
+Inserting 12,12 into 10
+KEY LENGTH 12
+This block has no keys, inserting at the beginning.
+Last empty byte index of keys: 4
+Key size * Order 12
+----- LeafNode 10 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 12
+Key: 0
+Pointer: 12
+Pointer: 0
+Pointer: 0
+header length: 9
+Pushing up right node ID 10 to parent ID 3
+Inserting 12,10 into InternalNode 3
+Key is larger than any other key, appending.
+Last filled key position after insert: 16
+Last filled pointer position after insert: 20
+Last empty byte index of keys: 16
+Key size * Order: 12
+This InternalNode is full. Splitting.
+Created new InternalNode with ID 11
+Byte index to split keys at 8
+Byte index to split pointers at 12
+Key split: ceil(n/2) 2.0
+Pointer split: ceil(order+2/2) 3.0
+Setting smallest pointer: 9 in InternalNode 11
+Moving <12,10> from 3 to 11.
+Inserting 12,10 into InternalNode 11
+Key set are empty. Inserting at the beginning.
+Setting parent ID 11 for 10
+header length: 9
+Pushing right node ID 11 to parent ID8
+Inserting 11,11 into InternalNode 8
+Key is larger than any other key, appending.
+Last filled key position after insert: 8
+Last filled pointer position after insert: 12
+Last empty byte index of keys: 8
+Key size * Order: 12
+----- InternalNode 8 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 12
+Key: 7
+Key: 11
+Key: 0
+Key: 0
+Pointer: 3
+Pointer: 7
+Pointer: 11
+Pointer: 0
+Pointer: 0
+Setting parent ID 8 for 11
+----- InternalNode 3 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 12
+Key: 3
+Key: 5
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 4
+Pointer: 0
+Pointer: 0
+Setting parent ID 3 for 10
+----- LeafNode 6 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 9
+Key: 10
+Pointer: 9
+Pointer: 10
+Pointer: 0
+Last index in keys: 8
+Last key: 11
+Last index in pointers: 12
+Last pointer: 11
+13 is greater than greatest key 11
+Searching for key in 11
+----- InternalNode 11 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 12
+Key: 0
+Key: 0
+Key: 0
+Pointer: 9
+Pointer: 10
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Last index in keys: 4
+Last key: 12
+Last index in pointers: 8
+Last pointer: 10
+13 is greater than greatest key 12
+Found block for key 10
+----- LeafNode 10 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 12
+Key: 0
+Pointer: 12
+Pointer: 0
+Pointer: 0
+Inserting 13,13 into LeafNode 10
+Last filled position: 4
+LeafNode capacity: 8
+Inserting 13,13 into 10
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 8
+Key size * Order 12
+----- LeafNode 10 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 12
+Key: 13
+Pointer: 12
+Pointer: 13
+Pointer: 0
+Last index in keys: 8
+Last key: 11
+Last index in pointers: 12
+Last pointer: 11
+14 is greater than greatest key 11
+Searching for key in 11
+----- InternalNode 11 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 12
+Key: 0
+Key: 0
+Key: 0
+Pointer: 9
+Pointer: 10
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Last index in keys: 4
+Last key: 12
+Last index in pointers: 8
+Last pointer: 10
+14 is greater than greatest key 12
+Found block for key 10
+----- LeafNode 10 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 12
+Key: 13
+Pointer: 12
+Pointer: 13
+Pointer: 0
+Inserting 14,14 into LeafNode 10
+Last filled position: 8
+LeafNode capacity: 8
+Inserting 14,14 into 10
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 12
+Key size * Order 12
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 12
+Byte index to split at 8
+Moving <14,14> from 10 to 12.
+Inserting 14,14 into LeafNode 12
+Last filled position: 0
+LeafNode capacity: 8
+Inserting 14,14 into 12
+KEY LENGTH 12
+This block has no keys, inserting at the beginning.
+Last empty byte index of keys: 4
+Key size * Order 12
+----- LeafNode 12 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 14
+Key: 0
+Pointer: 14
+Pointer: 0
+Pointer: 0
+header length: 9
+Pushing up right node ID 12 to parent ID 3
+Inserting 14,12 into InternalNode 3
+Key is larger than any other key, appending.
+Last filled key position after insert: 12
+Last filled pointer position after insert: 16
+Last empty byte index of keys: 12
+Key size * Order: 12
+----- InternalNode 3 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 12
+Byte offset for first empty pointer: 16
+Key: 3
+Key: 5
+Key: 14
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 4
+Pointer: 12
+Pointer: 0
+Setting parent ID 3 for 12
+----- LeafNode 10 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 12
+Key: 13
+Pointer: 12
+Pointer: 13
+Pointer: 0
+Last index in keys: 8
+Last key: 11
+Last index in pointers: 12
+Last pointer: 11
+15 is greater than greatest key 11
+Searching for key in 11
+----- InternalNode 11 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 12
+Key: 0
+Key: 0
+Key: 0
+Pointer: 9
+Pointer: 10
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Last index in keys: 4
+Last key: 12
+Last index in pointers: 8
+Last pointer: 10
+15 is greater than greatest key 12
+Found block for key 10
+----- LeafNode 10 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 12
+Key: 13
+Pointer: 12
+Pointer: 13
+Pointer: 0
+Inserting 15,15 into LeafNode 10
+Last filled position: 8
+LeafNode capacity: 8
+Inserting 15,15 into 10
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 12
+Key size * Order 12
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 13
+Byte index to split at 8
+Moving <15,15> from 10 to 13.
+Inserting 15,15 into LeafNode 13
+Last filled position: 0
+LeafNode capacity: 8
+Inserting 15,15 into 13
+KEY LENGTH 12
+This block has no keys, inserting at the beginning.
+Last empty byte index of keys: 4
+Key size * Order 12
+----- LeafNode 13 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 15
+Key: 0
+Pointer: 15
+Pointer: 0
+Pointer: 0
+header length: 9
+Pushing up right node ID 13 to parent ID 3
+Inserting 15,13 into InternalNode 3
+Key is larger than any other key, appending.
+Last filled key position after insert: 16
+Last filled pointer position after insert: 20
+Last empty byte index of keys: 16
+Key size * Order: 12
+This InternalNode is full. Splitting.
+Created new InternalNode with ID 14
+Byte index to split keys at 8
+Byte index to split pointers at 12
+Key split: ceil(n/2) 2.0
+Pointer split: ceil(order+2/2) 3.0
+Setting smallest pointer: 12 in InternalNode 14
+Moving <15,13> from 3 to 14.
+Inserting 15,13 into InternalNode 14
+Key set are empty. Inserting at the beginning.
+Setting parent ID 14 for 13
+header length: 9
+Pushing right node ID 14 to parent ID8
+Inserting 14,14 into InternalNode 8
+Key is larger than any other key, appending.
+Last filled key position after insert: 12
+Last filled pointer position after insert: 16
+Last empty byte index of keys: 12
+Key size * Order: 12
+----- InternalNode 8 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 12
+Byte offset for first empty pointer: 16
+Key: 7
+Key: 11
+Key: 14
+Key: 0
+Pointer: 3
+Pointer: 7
+Pointer: 11
+Pointer: 14
+Pointer: 0
+Setting parent ID 8 for 14
+----- InternalNode 3 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 12
+Key: 3
+Key: 5
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 4
+Pointer: 0
+Pointer: 0
+Setting parent ID 3 for 13
+----- LeafNode 10 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 12
+Key: 13
+Pointer: 12
+Pointer: 13
+Pointer: 0
+Last index in keys: 12
+Last key: 14
+Last index in pointers: 16
+Last pointer: 14
+16 is greater than greatest key 14
+Searching for key in 14
+----- InternalNode 14 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 15
+Key: 0
+Key: 0
+Key: 0
+Pointer: 12
+Pointer: 13
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Last index in keys: 4
+Last key: 15
+Last index in pointers: 8
+Last pointer: 13
+16 is greater than greatest key 15
+Found block for key 13
+----- LeafNode 13 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 15
+Key: 0
+Pointer: 15
+Pointer: 0
+Pointer: 0
+Inserting 16,16 into LeafNode 13
+Last filled position: 4
+LeafNode capacity: 8
+Inserting 16,16 into 13
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 8
+Key size * Order 12
+----- LeafNode 13 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 15
+Key: 16
+Pointer: 15
+Pointer: 16
+Pointer: 0
+Last index in keys: 12
+Last key: 14
+Last index in pointers: 16
+Last pointer: 14
+17 is greater than greatest key 14
+Searching for key in 14
+----- InternalNode 14 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 15
+Key: 0
+Key: 0
+Key: 0
+Pointer: 12
+Pointer: 13
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Last index in keys: 4
+Last key: 15
+Last index in pointers: 8
+Last pointer: 13
+17 is greater than greatest key 15
+Found block for key 13
+----- LeafNode 13 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 15
+Key: 16
+Pointer: 15
+Pointer: 16
+Pointer: 0
+Inserting 17,17 into LeafNode 13
+Last filled position: 8
+LeafNode capacity: 8
+Inserting 17,17 into 13
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 12
+Key size * Order 12
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 15
+Byte index to split at 8
+Moving <17,17> from 13 to 15.
+Inserting 17,17 into LeafNode 15
+Last filled position: 0
+LeafNode capacity: 8
+Inserting 17,17 into 15
+KEY LENGTH 12
+This block has no keys, inserting at the beginning.
+Last empty byte index of keys: 4
+Key size * Order 12
+----- LeafNode 15 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 17
+Key: 0
+Pointer: 17
+Pointer: 0
+Pointer: 0
+header length: 9
+Pushing up right node ID 15 to parent ID 3
+Inserting 17,15 into InternalNode 3
+Key is larger than any other key, appending.
+Last filled key position after insert: 12
+Last filled pointer position after insert: 16
+Last empty byte index of keys: 12
+Key size * Order: 12
+----- InternalNode 3 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 12
+Byte offset for first empty pointer: 16
+Key: 3
+Key: 5
+Key: 17
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 4
+Pointer: 15
+Pointer: 0
+Setting parent ID 3 for 15
+----- LeafNode 13 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 15
+Key: 16
+Pointer: 15
+Pointer: 16
+Pointer: 0
+Last index in keys: 12
+Last key: 14
+Last index in pointers: 16
+Last pointer: 14
+18 is greater than greatest key 14
+Searching for key in 14
+----- InternalNode 14 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 15
+Key: 0
+Key: 0
+Key: 0
+Pointer: 12
+Pointer: 13
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Last index in keys: 4
+Last key: 15
+Last index in pointers: 8
+Last pointer: 13
+18 is greater than greatest key 15
+Found block for key 13
+----- LeafNode 13 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 15
+Key: 16
+Pointer: 15
+Pointer: 16
+Pointer: 0
+Inserting 18,18 into LeafNode 13
+Last filled position: 8
+LeafNode capacity: 8
+Inserting 18,18 into 13
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 12
+Key size * Order 12
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 16
+Byte index to split at 8
+Moving <18,18> from 13 to 16.
+Inserting 18,18 into LeafNode 16
+Last filled position: 0
+LeafNode capacity: 8
+Inserting 18,18 into 16
+KEY LENGTH 12
+This block has no keys, inserting at the beginning.
+Last empty byte index of keys: 4
+Key size * Order 12
+----- LeafNode 16 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 18
+Key: 0
+Pointer: 18
+Pointer: 0
+Pointer: 0
+header length: 9
+Pushing up right node ID 16 to parent ID 3
+Inserting 18,16 into InternalNode 3
+Key is larger than any other key, appending.
+Last filled key position after insert: 16
+Last filled pointer position after insert: 20
+Last empty byte index of keys: 16
+Key size * Order: 12
+This InternalNode is full. Splitting.
+Created new InternalNode with ID 17
+Byte index to split keys at 8
+Byte index to split pointers at 12
+Key split: ceil(n/2) 2.0
+Pointer split: ceil(order+2/2) 3.0
+Setting smallest pointer: 15 in InternalNode 17
+Moving <18,16> from 3 to 17.
+Inserting 18,16 into InternalNode 17
+Key set are empty. Inserting at the beginning.
+Setting parent ID 17 for 16
+header length: 9
+Pushing right node ID 17 to parent ID8
+Inserting 17,17 into InternalNode 8
+Key is larger than any other key, appending.
+Last filled key position after insert: 16
+Last filled pointer position after insert: 20
+Last empty byte index of keys: 16
+Key size * Order: 12
+This InternalNode is full. Splitting.
+Created new InternalNode with ID 18
+Byte index to split keys at 8
+Byte index to split pointers at 12
+Key split: ceil(n/2) 2.0
+Pointer split: ceil(order+2/2) 3.0
+Setting smallest pointer: 14 in InternalNode 18
+Moving <17,17> from 8 to 18.
+Inserting 17,17 into InternalNode 18
+Key set are empty. Inserting at the beginning.
+Setting parent ID 18 for 17
+Split InternalNode was previously root, creating new root InternalNode w/ ID 19
+Setting smallest pointer: 8 in InternalNode 19
+Inserting 14,18 into InternalNode 19
+Key set are empty. Inserting at the beginning.
+Setting parent ID 19 for 8
+Setting parent ID 19 for 18
+----- InternalNode 8 -----
+header length: 9
+Parent ID: 19
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 12
+Key: 7
+Key: 11
+Key: 0
+Key: 0
+Pointer: 3
+Pointer: 7
+Pointer: 11
+Pointer: 0
+Pointer: 0
+Setting parent ID 8 for 17
+----- InternalNode 3 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 12
+Key: 3
+Key: 5
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 4
+Pointer: 0
+Pointer: 0
+Setting parent ID 3 for 16
+----- LeafNode 13 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 15
+Key: 16
+Pointer: 15
+Pointer: 16
+Pointer: 0
+Last index in keys: 4
+Last key: 14
+Last index in pointers: 8
+Last pointer: 18
+19 is greater than greatest key 14
+Searching for key in 18
+----- InternalNode 18 -----
+header length: 9
+Parent ID: 19
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 17
+Key: 0
+Key: 0
+Key: 0
+Pointer: 14
+Pointer: 17
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Last index in keys: 4
+Last key: 17
+Last index in pointers: 8
+Last pointer: 17
+19 is greater than greatest key 17
+Searching for key in 17
+----- InternalNode 17 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 18
+Key: 0
+Key: 0
+Key: 0
+Pointer: 15
+Pointer: 16
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Last index in keys: 4
+Last key: 18
+Last index in pointers: 8
+Last pointer: 16
+19 is greater than greatest key 18
+Found block for key 16
+----- LeafNode 16 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 18
+Key: 0
+Pointer: 18
+Pointer: 0
+Pointer: 0
+Inserting 19,19 into LeafNode 16
+Last filled position: 4
+LeafNode capacity: 8
+Inserting 19,19 into 16
+KEY LENGTH 12
+Key is larger than any other key, appending.
+Last empty byte index of keys: 8
+Key size * Order 12
+----- LeafNode 16 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 18
+Key: 19
+Pointer: 18
+Pointer: 19
+Pointer: 0
+Dumping index file to console.. 
+--- HEADER INFO ---
+Block size: 40
+Key size: 4
+Pointer size: 4
+Root ID: 19
+Root is Leaf: false
+Tree Order: (not stored in header): 3
+--- STOP HEADER INFO ---
+----- LeafNode 1 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 1
+Key: 2
+Pointer: 1
+Pointer: 2
+Pointer: 0
+----- LeafNode 2 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 3
+Key: 4
+Pointer: 3
+Pointer: 4
+Pointer: 0
+----- InternalNode 3 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 12
+Key: 3
+Key: 5
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 4
+Pointer: 0
+Pointer: 0
+----- LeafNode 4 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 5
+Key: 6
+Pointer: 5
+Pointer: 6
+Pointer: 0
+----- LeafNode 5 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 7
+Key: 8
+Pointer: 7
+Pointer: 8
+Pointer: 0
+----- LeafNode 6 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 9
+Key: 10
+Pointer: 9
+Pointer: 10
+Pointer: 0
+----- InternalNode 7 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 9
+Key: 0
+Key: 0
+Key: 0
+Pointer: 5
+Pointer: 6
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 8 -----
+header length: 9
+Parent ID: 19
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 12
+Key: 7
+Key: 11
+Key: 0
+Key: 0
+Pointer: 3
+Pointer: 7
+Pointer: 11
+Pointer: 0
+Pointer: 0
+----- LeafNode 9 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 11
+Key: 0
+Pointer: 11
+Pointer: 0
+Pointer: 0
+----- LeafNode 10 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 12
+Key: 13
+Pointer: 12
+Pointer: 13
+Pointer: 0
+----- InternalNode 11 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 12
+Key: 0
+Key: 0
+Key: 0
+Pointer: 9
+Pointer: 10
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 12 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 14
+Key: 0
+Pointer: 14
+Pointer: 0
+Pointer: 0
+----- LeafNode 13 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 15
+Key: 16
+Pointer: 15
+Pointer: 16
+Pointer: 0
+----- InternalNode 14 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 15
+Key: 0
+Key: 0
+Key: 0
+Pointer: 12
+Pointer: 13
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 15 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 4
+Key: 17
+Key: 0
+Pointer: 17
+Pointer: 0
+Pointer: 0
+----- LeafNode 16 -----
+header length: 9
+Parent ID: 3
+Byte offset for first empty key: 8
+Byte offset for first empty pointer: 8
+Key: 18
+Key: 19
+Pointer: 18
+Pointer: 19
+Pointer: 0
+----- InternalNode 17 -----
+header length: 9
+Parent ID: 8
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 18
+Key: 0
+Key: 0
+Key: 0
+Pointer: 15
+Pointer: 16
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 18 -----
+header length: 9
+Parent ID: 19
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 17
+Key: 0
+Key: 0
+Key: 0
+Pointer: 14
+Pointer: 17
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 19 -----
+header length: 9
+Parent ID: 0
+Byte offset for first empty key: 4
+Byte offset for first empty pointer: 8
+Key: 14
+Key: 0
+Key: 0
+Key: 0
+Pointer: 8
+Pointer: 18
+Pointer: 0
+Pointer: 0
+Pointer: 0
+---PROGRAM EXIT---

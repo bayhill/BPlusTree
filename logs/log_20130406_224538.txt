@@ -1,0 +1,631 @@
+---PROGRAM START---
+Tree was empty. Creating new root.
+Inserting 1,1 into LeafNode 1
+This block has no keys, inserting at the beginning.
+----- LeafNode 1 -----
+Parent ID: 0
+Key: 1
+Key: 0
+Pointer: 1
+Pointer: 0
+Pointer: 0
+Inserting 2,2 into LeafNode 1
+Key is larger than any other key, appending.
+----- LeafNode 1 -----
+Parent ID: 0
+Key: 1
+Key: 2
+Pointer: 1
+Pointer: 2
+Pointer: 0
+Inserting 3,3 into LeafNode 1
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 2
+Moving <3,3> from 1 to 2.
+Inserting 3,3 into LeafNode 2
+This block has no keys, inserting at the beginning.
+----- LeafNode 2 -----
+Parent ID: 0
+Key: 3
+Key: 0
+Pointer: 3
+Pointer: 0
+Pointer: 0
+Split LeftNode was previously root, creating new root InternalNode w/ ID 3
+Setting smallest pointer: 1 in InternalNode 3
+Inserting 3,2 into InternalNode 3
+Key set are empty. Inserting at the beginning.
+Setting parent ID through setParent() 3 for 1
+----- LeafNode 1 -----
+Parent ID: 3
+Key: 1
+Key: 2
+Pointer: 1
+Pointer: 2
+Pointer: 0
+4 is greater than greatest key 3
+Found block for key 2
+----- LeafNode 2 -----
+Parent ID: 0
+Key: 3
+Key: 0
+Pointer: 3
+Pointer: 0
+Pointer: 0
+Inserting 4,4 into LeafNode 2
+Key is larger than any other key, appending.
+----- LeafNode 2 -----
+Parent ID: 0
+Key: 3
+Key: 4
+Pointer: 3
+Pointer: 4
+Pointer: 0
+5 is greater than greatest key 3
+Found block for key 2
+----- LeafNode 2 -----
+Parent ID: 0
+Key: 3
+Key: 4
+Pointer: 3
+Pointer: 4
+Pointer: 0
+Inserting 5,5 into LeafNode 2
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 4
+Moving <5,5> from 2 to 4.
+Inserting 5,5 into LeafNode 4
+This block has no keys, inserting at the beginning.
+----- LeafNode 4 -----
+Parent ID: 0
+Key: 5
+Key: 0
+Pointer: 5
+Pointer: 0
+Pointer: 0
+Split LeftNode was previously root, creating new root InternalNode w/ ID 5
+Setting smallest pointer: 2 in InternalNode 5
+Inserting 5,4 into InternalNode 5
+Key set are empty. Inserting at the beginning.
+Setting parent ID through setParent() 5 for 2
+----- LeafNode 2 -----
+Parent ID: 5
+Key: 3
+Key: 4
+Pointer: 3
+Pointer: 4
+Pointer: 0
+6 is greater than greatest key 5
+Found block for key 4
+----- LeafNode 4 -----
+Parent ID: 0
+Key: 5
+Key: 0
+Pointer: 5
+Pointer: 0
+Pointer: 0
+Inserting 6,6 into LeafNode 4
+Key is larger than any other key, appending.
+----- LeafNode 4 -----
+Parent ID: 0
+Key: 5
+Key: 6
+Pointer: 5
+Pointer: 6
+Pointer: 0
+7 is greater than greatest key 5
+Found block for key 4
+----- LeafNode 4 -----
+Parent ID: 0
+Key: 5
+Key: 6
+Pointer: 5
+Pointer: 6
+Pointer: 0
+Inserting 7,7 into LeafNode 4
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 6
+Moving <7,7> from 4 to 6.
+Inserting 7,7 into LeafNode 6
+This block has no keys, inserting at the beginning.
+----- LeafNode 6 -----
+Parent ID: 0
+Key: 7
+Key: 0
+Pointer: 7
+Pointer: 0
+Pointer: 0
+Split LeftNode was previously root, creating new root InternalNode w/ ID 7
+Setting smallest pointer: 4 in InternalNode 7
+Inserting 7,6 into InternalNode 7
+Key set are empty. Inserting at the beginning.
+Setting parent ID through setParent() 7 for 4
+----- LeafNode 4 -----
+Parent ID: 7
+Key: 5
+Key: 6
+Pointer: 5
+Pointer: 6
+Pointer: 0
+8 is greater than greatest key 7
+Found block for key 6
+----- LeafNode 6 -----
+Parent ID: 0
+Key: 7
+Key: 0
+Pointer: 7
+Pointer: 0
+Pointer: 0
+Inserting 8,8 into LeafNode 6
+Key is larger than any other key, appending.
+----- LeafNode 6 -----
+Parent ID: 0
+Key: 7
+Key: 8
+Pointer: 7
+Pointer: 8
+Pointer: 0
+9 is greater than greatest key 7
+Found block for key 6
+----- LeafNode 6 -----
+Parent ID: 0
+Key: 7
+Key: 8
+Pointer: 7
+Pointer: 8
+Pointer: 0
+Inserting 9,9 into LeafNode 6
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 8
+Moving <9,9> from 6 to 8.
+Inserting 9,9 into LeafNode 8
+This block has no keys, inserting at the beginning.
+----- LeafNode 8 -----
+Parent ID: 0
+Key: 9
+Key: 0
+Pointer: 9
+Pointer: 0
+Pointer: 0
+Split LeftNode was previously root, creating new root InternalNode w/ ID 9
+Setting smallest pointer: 6 in InternalNode 9
+Inserting 9,8 into InternalNode 9
+Key set are empty. Inserting at the beginning.
+Setting parent ID through setParent() 9 for 6
+----- LeafNode 6 -----
+Parent ID: 9
+Key: 7
+Key: 8
+Pointer: 7
+Pointer: 8
+Pointer: 0
+10 is greater than greatest key 9
+Found block for key 8
+----- LeafNode 8 -----
+Parent ID: 0
+Key: 9
+Key: 0
+Pointer: 9
+Pointer: 0
+Pointer: 0
+Inserting 10,10 into LeafNode 8
+Key is larger than any other key, appending.
+----- LeafNode 8 -----
+Parent ID: 0
+Key: 9
+Key: 10
+Pointer: 9
+Pointer: 10
+Pointer: 0
+11 is greater than greatest key 9
+Found block for key 8
+----- LeafNode 8 -----
+Parent ID: 0
+Key: 9
+Key: 10
+Pointer: 9
+Pointer: 10
+Pointer: 0
+Inserting 11,11 into LeafNode 8
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 10
+Moving <11,11> from 8 to 10.
+Inserting 11,11 into LeafNode 10
+This block has no keys, inserting at the beginning.
+----- LeafNode 10 -----
+Parent ID: 0
+Key: 11
+Key: 0
+Pointer: 11
+Pointer: 0
+Pointer: 0
+Split LeftNode was previously root, creating new root InternalNode w/ ID 11
+Setting smallest pointer: 8 in InternalNode 11
+Inserting 11,10 into InternalNode 11
+Key set are empty. Inserting at the beginning.
+Setting parent ID through setParent() 11 for 8
+----- LeafNode 8 -----
+Parent ID: 11
+Key: 9
+Key: 10
+Pointer: 9
+Pointer: 10
+Pointer: 0
+12 is greater than greatest key 11
+Found block for key 10
+----- LeafNode 10 -----
+Parent ID: 0
+Key: 11
+Key: 0
+Pointer: 11
+Pointer: 0
+Pointer: 0
+Inserting 12,12 into LeafNode 10
+Key is larger than any other key, appending.
+----- LeafNode 10 -----
+Parent ID: 0
+Key: 11
+Key: 12
+Pointer: 11
+Pointer: 12
+Pointer: 0
+13 is greater than greatest key 11
+Found block for key 10
+----- LeafNode 10 -----
+Parent ID: 0
+Key: 11
+Key: 12
+Pointer: 11
+Pointer: 12
+Pointer: 0
+Inserting 13,13 into LeafNode 10
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 12
+Moving <13,13> from 10 to 12.
+Inserting 13,13 into LeafNode 12
+This block has no keys, inserting at the beginning.
+----- LeafNode 12 -----
+Parent ID: 0
+Key: 13
+Key: 0
+Pointer: 13
+Pointer: 0
+Pointer: 0
+Split LeftNode was previously root, creating new root InternalNode w/ ID 13
+Setting smallest pointer: 10 in InternalNode 13
+Inserting 13,12 into InternalNode 13
+Key set are empty. Inserting at the beginning.
+Setting parent ID through setParent() 13 for 10
+----- LeafNode 10 -----
+Parent ID: 13
+Key: 11
+Key: 12
+Pointer: 11
+Pointer: 12
+Pointer: 0
+14 is greater than greatest key 13
+Found block for key 12
+----- LeafNode 12 -----
+Parent ID: 0
+Key: 13
+Key: 0
+Pointer: 13
+Pointer: 0
+Pointer: 0
+Inserting 14,14 into LeafNode 12
+Key is larger than any other key, appending.
+----- LeafNode 12 -----
+Parent ID: 0
+Key: 13
+Key: 14
+Pointer: 13
+Pointer: 14
+Pointer: 0
+15 is greater than greatest key 13
+Found block for key 12
+----- LeafNode 12 -----
+Parent ID: 0
+Key: 13
+Key: 14
+Pointer: 13
+Pointer: 14
+Pointer: 0
+Inserting 15,15 into LeafNode 12
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 14
+Moving <15,15> from 12 to 14.
+Inserting 15,15 into LeafNode 14
+This block has no keys, inserting at the beginning.
+----- LeafNode 14 -----
+Parent ID: 0
+Key: 15
+Key: 0
+Pointer: 15
+Pointer: 0
+Pointer: 0
+Split LeftNode was previously root, creating new root InternalNode w/ ID 15
+Setting smallest pointer: 12 in InternalNode 15
+Inserting 15,14 into InternalNode 15
+Key set are empty. Inserting at the beginning.
+Setting parent ID through setParent() 15 for 12
+----- LeafNode 12 -----
+Parent ID: 15
+Key: 13
+Key: 14
+Pointer: 13
+Pointer: 14
+Pointer: 0
+16 is greater than greatest key 15
+Found block for key 14
+----- LeafNode 14 -----
+Parent ID: 0
+Key: 15
+Key: 0
+Pointer: 15
+Pointer: 0
+Pointer: 0
+Inserting 16,16 into LeafNode 14
+Key is larger than any other key, appending.
+----- LeafNode 14 -----
+Parent ID: 0
+Key: 15
+Key: 16
+Pointer: 15
+Pointer: 16
+Pointer: 0
+17 is greater than greatest key 15
+Found block for key 14
+----- LeafNode 14 -----
+Parent ID: 0
+Key: 15
+Key: 16
+Pointer: 15
+Pointer: 16
+Pointer: 0
+Inserting 17,17 into LeafNode 14
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 16
+Moving <17,17> from 14 to 16.
+Inserting 17,17 into LeafNode 16
+This block has no keys, inserting at the beginning.
+----- LeafNode 16 -----
+Parent ID: 0
+Key: 17
+Key: 0
+Pointer: 17
+Pointer: 0
+Pointer: 0
+Split LeftNode was previously root, creating new root InternalNode w/ ID 17
+Setting smallest pointer: 14 in InternalNode 17
+Inserting 17,16 into InternalNode 17
+Key set are empty. Inserting at the beginning.
+Setting parent ID through setParent() 17 for 14
+----- LeafNode 14 -----
+Parent ID: 17
+Key: 15
+Key: 16
+Pointer: 15
+Pointer: 16
+Pointer: 0
+18 is greater than greatest key 17
+Found block for key 16
+----- LeafNode 16 -----
+Parent ID: 0
+Key: 17
+Key: 0
+Pointer: 17
+Pointer: 0
+Pointer: 0
+Inserting 18,18 into LeafNode 16
+Key is larger than any other key, appending.
+----- LeafNode 16 -----
+Parent ID: 0
+Key: 17
+Key: 18
+Pointer: 17
+Pointer: 18
+Pointer: 0
+19 is greater than greatest key 17
+Found block for key 16
+----- LeafNode 16 -----
+Parent ID: 0
+Key: 17
+Key: 18
+Pointer: 17
+Pointer: 18
+Pointer: 0
+Inserting 19,19 into LeafNode 16
+Key is larger than any other key, appending.
+This LeafNode is full. Splitting.
+Created new LeafNode with ID 18
+Moving <19,19> from 16 to 18.
+Inserting 19,19 into LeafNode 18
+This block has no keys, inserting at the beginning.
+----- LeafNode 18 -----
+Parent ID: 0
+Key: 19
+Key: 0
+Pointer: 19
+Pointer: 0
+Pointer: 0
+Split LeftNode was previously root, creating new root InternalNode w/ ID 19
+Setting smallest pointer: 16 in InternalNode 19
+Inserting 19,18 into InternalNode 19
+Key set are empty. Inserting at the beginning.
+Setting parent ID through setParent() 19 for 16
+----- LeafNode 16 -----
+Parent ID: 19
+Key: 17
+Key: 18
+Pointer: 17
+Pointer: 18
+Pointer: 0
+Dumping index file to console.. 
+--- HEADER INFO ---
+Block size: 38
+Key size: 4
+Pointer size: 4
+Root ID: 19
+Root is Leaf: false
+Tree Order: (not stored in header): 3
+--- STOP HEADER INFO ---
+----- LeafNode 1 -----
+Parent ID: 3
+Key: 1
+Key: 2
+Pointer: 1
+Pointer: 2
+Pointer: 0
+----- LeafNode 2 -----
+Parent ID: 5
+Key: 3
+Key: 4
+Pointer: 3
+Pointer: 4
+Pointer: 0
+----- InternalNode 3 -----
+Parent ID: 0
+Key: 3
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 0
+Pointer: 0
+----- LeafNode 4 -----
+Parent ID: 7
+Key: 5
+Key: 6
+Pointer: 5
+Pointer: 6
+Pointer: 0
+----- InternalNode 5 -----
+Parent ID: 0
+Key: 5
+Key: 0
+Key: 0
+Pointer: 2
+Pointer: 4
+Pointer: 0
+Pointer: 0
+----- LeafNode 6 -----
+Parent ID: 9
+Key: 7
+Key: 8
+Pointer: 7
+Pointer: 8
+Pointer: 0
+----- InternalNode 7 -----
+Parent ID: 0
+Key: 7
+Key: 0
+Key: 0
+Pointer: 4
+Pointer: 6
+Pointer: 0
+Pointer: 0
+----- LeafNode 8 -----
+Parent ID: 11
+Key: 9
+Key: 10
+Pointer: 9
+Pointer: 10
+Pointer: 0
+----- InternalNode 9 -----
+Parent ID: 0
+Key: 9
+Key: 0
+Key: 0
+Pointer: 6
+Pointer: 8
+Pointer: 0
+Pointer: 0
+----- LeafNode 10 -----
+Parent ID: 13
+Key: 11
+Key: 12
+Pointer: 11
+Pointer: 12
+Pointer: 0
+----- InternalNode 11 -----
+Parent ID: 0
+Key: 11
+Key: 0
+Key: 0
+Pointer: 8
+Pointer: 10
+Pointer: 0
+Pointer: 0
+----- LeafNode 12 -----
+Parent ID: 15
+Key: 13
+Key: 14
+Pointer: 13
+Pointer: 14
+Pointer: 0
+----- InternalNode 13 -----
+Parent ID: 0
+Key: 13
+Key: 0
+Key: 0
+Pointer: 10
+Pointer: 12
+Pointer: 0
+Pointer: 0
+----- LeafNode 14 -----
+Parent ID: 17
+Key: 15
+Key: 16
+Pointer: 15
+Pointer: 16
+Pointer: 0
+----- InternalNode 15 -----
+Parent ID: 0
+Key: 15
+Key: 0
+Key: 0
+Pointer: 12
+Pointer: 14
+Pointer: 0
+Pointer: 0
+----- LeafNode 16 -----
+Parent ID: 19
+Key: 17
+Key: 18
+Pointer: 17
+Pointer: 18
+Pointer: 0
+----- InternalNode 17 -----
+Parent ID: 0
+Key: 17
+Key: 0
+Key: 0
+Pointer: 14
+Pointer: 16
+Pointer: 0
+Pointer: 0
+----- LeafNode 18 -----
+Parent ID: 0
+Key: 19
+Key: 0
+Pointer: 19
+Pointer: 0
+Pointer: 0
+----- InternalNode 19 -----
+Parent ID: 0
+Key: 19
+Key: 0
+Key: 0
+Pointer: 16
+Pointer: 18
+Pointer: 0
+Pointer: 0
+---PROGRAM EXIT---

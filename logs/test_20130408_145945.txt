@@ -1,0 +1,836 @@
+---START OF TEST PROGRAM---
+Generating 1150000 unique, random <key, value> pairs to use for testing.
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 38 bytes
+Node size: 3
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 12497 milliseconds.
+Test sequence 3 query phase completed in 6059 milliseconds.
+Inserted and queried 50000 keys with 550001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 38 bytes
+Node size: 3
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 10176 milliseconds.
+Test sequence 3 query phase completed in 5710 milliseconds.
+Inserted and queried 50000 keys with 550001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 38 bytes
+Node size: 3
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 9909 milliseconds.
+Test sequence 3 query phase completed in 5674 milliseconds.
+Inserted and queried 50000 keys with 550001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 70 bytes
+Node size: 7
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6426 milliseconds.
+Test sequence 3 query phase completed in 3646 milliseconds.
+Inserted and queried 50000 keys with 350001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 70 bytes
+Node size: 7
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6405 milliseconds.
+Test sequence 3 query phase completed in 3621 milliseconds.
+Inserted and queried 50000 keys with 350001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 70 bytes
+Node size: 7
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6394 milliseconds.
+Test sequence 3 query phase completed in 3612 milliseconds.
+Inserted and queried 50000 keys with 350001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 102 bytes
+Node size: 11
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5828 milliseconds.
+Test sequence 3 query phase completed in 3248 milliseconds.
+Inserted and queried 50000 keys with 300001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 102 bytes
+Node size: 11
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6042 milliseconds.
+Test sequence 3 query phase completed in 3102 milliseconds.
+Inserted and queried 50000 keys with 300001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 102 bytes
+Node size: 11
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5984 milliseconds.
+Test sequence 3 query phase completed in 3117 milliseconds.
+Inserted and queried 50000 keys with 300001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 134 bytes
+Node size: 15
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5654 milliseconds.
+Test sequence 3 query phase completed in 2615 milliseconds.
+Inserted and queried 50000 keys with 250001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 134 bytes
+Node size: 15
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5695 milliseconds.
+Test sequence 3 query phase completed in 2584 milliseconds.
+Inserted and queried 50000 keys with 250001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 134 bytes
+Node size: 15
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5658 milliseconds.
+Test sequence 3 query phase completed in 2635 milliseconds.
+Inserted and queried 50000 keys with 250001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 166 bytes
+Node size: 19
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5671 milliseconds.
+Test sequence 3 query phase completed in 2603 milliseconds.
+Inserted and queried 50000 keys with 250001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 166 bytes
+Node size: 19
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5730 milliseconds.
+Test sequence 3 query phase completed in 2607 milliseconds.
+Inserted and queried 50000 keys with 250001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 166 bytes
+Node size: 19
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5637 milliseconds.
+Test sequence 3 query phase completed in 2621 milliseconds.
+Inserted and queried 50000 keys with 250001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 198 bytes
+Node size: 23
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5690 milliseconds.
+Test sequence 3 query phase completed in 2106 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 198 bytes
+Node size: 23
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5663 milliseconds.
+Test sequence 3 query phase completed in 2082 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 198 bytes
+Node size: 23
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5657 milliseconds.
+Test sequence 3 query phase completed in 2075 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 230 bytes
+Node size: 27
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5851 milliseconds.
+Test sequence 3 query phase completed in 2065 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 230 bytes
+Node size: 27
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5983 milliseconds.
+Test sequence 3 query phase completed in 2080 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 230 bytes
+Node size: 27
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 5771 milliseconds.
+Test sequence 3 query phase completed in 2099 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 262 bytes
+Node size: 31
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6038 milliseconds.
+Test sequence 3 query phase completed in 2122 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 262 bytes
+Node size: 31
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6037 milliseconds.
+Test sequence 3 query phase completed in 2129 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 262 bytes
+Node size: 31
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6035 milliseconds.
+Test sequence 3 query phase completed in 2242 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 294 bytes
+Node size: 35
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6143 milliseconds.
+Test sequence 3 query phase completed in 2135 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 294 bytes
+Node size: 35
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6172 milliseconds.
+Test sequence 3 query phase completed in 2126 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 294 bytes
+Node size: 35
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6195 milliseconds.
+Test sequence 3 query phase completed in 2124 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 326 bytes
+Node size: 39
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6363 milliseconds.
+Test sequence 3 query phase completed in 2162 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 326 bytes
+Node size: 39
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6421 milliseconds.
+Test sequence 3 query phase completed in 2158 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 326 bytes
+Node size: 39
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6479 milliseconds.
+Test sequence 3 query phase completed in 2135 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 358 bytes
+Node size: 43
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6451 milliseconds.
+Test sequence 3 query phase completed in 2246 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 358 bytes
+Node size: 43
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6518 milliseconds.
+Test sequence 3 query phase completed in 2206 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 358 bytes
+Node size: 43
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6503 milliseconds.
+Test sequence 3 query phase completed in 2143 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 390 bytes
+Node size: 47
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6539 milliseconds.
+Test sequence 3 query phase completed in 2200 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 390 bytes
+Node size: 47
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6493 milliseconds.
+Test sequence 3 query phase completed in 2198 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 390 bytes
+Node size: 47
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6536 milliseconds.
+Test sequence 3 query phase completed in 2281 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 422 bytes
+Node size: 51
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6626 milliseconds.
+Test sequence 3 query phase completed in 2233 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 422 bytes
+Node size: 51
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6689 milliseconds.
+Test sequence 3 query phase completed in 2205 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 422 bytes
+Node size: 51
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6694 milliseconds.
+Test sequence 3 query phase completed in 2198 milliseconds.
+Inserted and queried 50000 keys with 200001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 454 bytes
+Node size: 55
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6877 milliseconds.
+Test sequence 3 query phase completed in 1644 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 454 bytes
+Node size: 55
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6949 milliseconds.
+Test sequence 3 query phase completed in 1641 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 454 bytes
+Node size: 55
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 6877 milliseconds.
+Test sequence 3 query phase completed in 1665 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 486 bytes
+Node size: 59
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7136 milliseconds.
+Test sequence 3 query phase completed in 1661 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 486 bytes
+Node size: 59
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7992 milliseconds.
+Test sequence 3 query phase completed in 1640 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 486 bytes
+Node size: 59
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7068 milliseconds.
+Test sequence 3 query phase completed in 1625 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 518 bytes
+Node size: 63
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7364 milliseconds.
+Test sequence 3 query phase completed in 1643 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 518 bytes
+Node size: 63
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7309 milliseconds.
+Test sequence 3 query phase completed in 1668 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 518 bytes
+Node size: 63
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7356 milliseconds.
+Test sequence 3 query phase completed in 1639 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 550 bytes
+Node size: 67
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7682 milliseconds.
+Test sequence 3 query phase completed in 1798 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 550 bytes
+Node size: 67
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7612 milliseconds.
+Test sequence 3 query phase completed in 1649 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 550 bytes
+Node size: 67
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7636 milliseconds.
+Test sequence 3 query phase completed in 1672 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 582 bytes
+Node size: 71
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7902 milliseconds.
+Test sequence 3 query phase completed in 1693 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 582 bytes
+Node size: 71
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7907 milliseconds.
+Test sequence 3 query phase completed in 1681 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 582 bytes
+Node size: 71
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 7935 milliseconds.
+Test sequence 3 query phase completed in 1663 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 614 bytes
+Node size: 75
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8180 milliseconds.
+Test sequence 3 query phase completed in 1711 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 614 bytes
+Node size: 75
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8184 milliseconds.
+Test sequence 3 query phase completed in 1818 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 614 bytes
+Node size: 75
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8219 milliseconds.
+Test sequence 3 query phase completed in 1696 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 646 bytes
+Node size: 79
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8359 milliseconds.
+Test sequence 3 query phase completed in 1709 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 646 bytes
+Node size: 79
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8347 milliseconds.
+Test sequence 3 query phase completed in 1693 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 646 bytes
+Node size: 79
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8404 milliseconds.
+Test sequence 3 query phase completed in 1699 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 678 bytes
+Node size: 83
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8532 milliseconds.
+Test sequence 3 query phase completed in 1713 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 678 bytes
+Node size: 83
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8671 milliseconds.
+Test sequence 3 query phase completed in 1701 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 678 bytes
+Node size: 83
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8655 milliseconds.
+Test sequence 3 query phase completed in 1701 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 710 bytes
+Node size: 87
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8791 milliseconds.
+Test sequence 3 query phase completed in 1739 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 710 bytes
+Node size: 87
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8968 milliseconds.
+Test sequence 3 query phase completed in 1725 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 710 bytes
+Node size: 87
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8678 milliseconds.
+Test sequence 3 query phase completed in 1715 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 0 ...
+Test sequence information
+Block size: 742 bytes
+Node size: 91
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8826 milliseconds.
+Test sequence 3 query phase completed in 1731 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 1 ...
+Test sequence information
+Block size: 742 bytes
+Node size: 91
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8881 milliseconds.
+Test sequence 3 query phase completed in 1756 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 3 no 2 ...
+Test sequence information
+Block size: 742 bytes
+Node size: 91
+Amount of insertions: 50000
+Data source: Read data from file
+Description: Generating index from data table stored on disk.
+Test sequence 3 insertion phase completed in 8808 milliseconds.
+Test sequence 3 query phase completed in 1728 milliseconds.
+Inserted and queried 50000 keys with 150001 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Result for test sequence 3 (Query all) (in ms):
+K/B;38;70;102;134;166;198;230;262;294;326;358;390;422;454;486;518;550;582;614;646;678;710;742
+5814;3626;3155;2611;2610;2087;2081;2164;2128;2151;2198;2226;2212;1650;1642;1650;1706;1679;1741;1700;1705;1726;1738;
+1052829;664721;560373;481111;460698;394158;390860;388260;381508;376706;369921;357959;348794;298014;297710;297458;297199;296890;296582;296246;295827;295242;294609;
+550001;350001;300001;250001;250001;200001;200001;200001;200001;200001;200001;200001;200001;150001;150001;150001;150001;150001;150001;150001;150001;150001;150001;
+---END OF TEST PROGRAM---

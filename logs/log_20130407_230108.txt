@@ -1,0 +1,629 @@
+---PROGRAM START---
+Dumping index file to console.. 
+--- HEADER INFO ---
+Block size: 256
+Key size: 4
+Pointer size: 4
+Root ID: 3
+Root is Leaf: false
+Tree Order: (not stored in header): 30
+--- STOP HEADER INFO ---
+----- LeafNode 1 -----
+Parent ID: 3
+Key: 11380
+Key: 12801
+Key: 13213
+Key: 16733
+Key: 19687
+Key: 21039
+Key: 21618
+Key: 23129
+Key: 23211
+Key: 24836
+Key: 29269
+Key: 32303
+Key: 36271
+Key: 36291
+Key: 37458
+Key: 38242
+Key: 38614
+Key: 39483
+Key: 39980
+Key: 46598
+Key: 49726
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 11380
+Pointer: 12801
+Pointer: 13213
+Pointer: 16733
+Pointer: 19687
+Pointer: 21039
+Pointer: 21618
+Pointer: 23129
+Pointer: 23211
+Pointer: 24836
+Pointer: 29269
+Pointer: 32303
+Pointer: 36271
+Pointer: 36291
+Pointer: 37458
+Pointer: 38242
+Pointer: 38614
+Pointer: 39483
+Pointer: 39980
+Pointer: 46598
+Pointer: 49726
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 2 -----
+Parent ID: 3
+Key: 51372
+Key: 53869
+Key: 56764
+Key: 57125
+Key: 61717
+Key: 63348
+Key: 64205
+Key: 64539
+Key: 71375
+Key: 74039
+Key: 74554
+Key: 76606
+Key: 77398
+Key: 77651
+Key: 78731
+Key: 79240
+Key: 81331
+Key: 81346
+Key: 82690
+Key: 86254
+Key: 86493
+Key: 86843
+Key: 87097
+Key: 87858
+Key: 91576
+Key: 95192
+Key: 97331
+Key: 98427
+Key: 99484
+Key: 0
+Pointer: 51372
+Pointer: 53869
+Pointer: 56764
+Pointer: 57125
+Pointer: 61717
+Pointer: 63348
+Pointer: 64205
+Pointer: 64539
+Pointer: 71375
+Pointer: 74039
+Pointer: 74554
+Pointer: 76606
+Pointer: 77398
+Pointer: 77651
+Pointer: 78731
+Pointer: 79240
+Pointer: 81331
+Pointer: 81346
+Pointer: 82690
+Pointer: 86254
+Pointer: 86493
+Pointer: 86843
+Pointer: 87097
+Pointer: 87858
+Pointer: 91576
+Pointer: 95192
+Pointer: 97331
+Pointer: 98427
+Pointer: 99484
+Pointer: 0
+Pointer: 0
+----- InternalNode 3 -----
+Parent ID: null
+Key: 51372
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 2
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Dumping index file to console.. 
+--- HEADER INFO ---
+Block size: 85
+Key size: 4
+Pointer size: 4
+Root ID: 31
+Root is Leaf: false
+Tree Order: (not stored in header): 9
+--- STOP HEADER INFO ---
+----- LeafNode 1 -----
+Parent ID: 3
+Key: 13617
+Key: 14179
+Key: 14345
+Key: 16777
+Key: 17031
+Key: 17204
+Key: 0
+Key: 0
+Key: 0
+Pointer: 13617
+Pointer: 14179
+Pointer: 14345
+Pointer: 16777
+Pointer: 17031
+Pointer: 17204
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 2 -----
+Parent ID: 38
+Key: 80580
+Key: 81430
+Key: 83242
+Key: 83701
+Key: 84517
+Key: 85056
+Key: 86627
+Key: 88286
+Key: 90167
+Pointer: 80580
+Pointer: 81430
+Pointer: 83242
+Pointer: 83701
+Pointer: 84517
+Pointer: 85056
+Pointer: 86627
+Pointer: 88286
+Pointer: 90167
+Pointer: 0
+----- InternalNode 3 -----
+Parent ID: null
+Key: 17283
+Key: 17283
+Key: 17283
+Key: 17283
+Key: 17283
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 1
+Pointer: 26
+Pointer: 26
+Pointer: 26
+Pointer: 26
+Pointer: 26
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 4 -----
+Parent ID: 5
+Key: 40438
+Key: 43706
+Key: 46191
+Key: 47277
+Key: 47544
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 40438
+Pointer: 43706
+Pointer: 46191
+Pointer: 47277
+Pointer: 47544
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 5 -----
+Parent ID: null
+Key: 40438
+Key: 48663
+Key: 48663
+Key: 48663
+Key: 48663
+Key: 55318
+Key: 0
+Key: 0
+Key: 0
+Pointer: 4
+Pointer: 4
+Pointer: 24
+Pointer: 24
+Pointer: 24
+Pointer: 24
+Pointer: 42
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 6 -----
+Parent ID: null
+Key: 17283
+Key: 17283
+Key: 17283
+Key: 17283
+Key: 17283
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 3
+Pointer: 27
+Pointer: 27
+Pointer: 27
+Pointer: 27
+Pointer: 27
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 7 -----
+Parent ID: 8
+Key: 21988
+Key: 22034
+Key: 22730
+Key: 22910
+Key: 24943
+Key: 26119
+Key: 0
+Key: 0
+Key: 0
+Pointer: 21988
+Pointer: 22034
+Pointer: 22730
+Pointer: 22910
+Pointer: 24943
+Pointer: 26119
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 8 -----
+Parent ID: null
+Key: 21988
+Key: 26455
+Key: 26455
+Key: 26455
+Key: 26455
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 7
+Pointer: 7
+Pointer: 39
+Pointer: 39
+Pointer: 39
+Pointer: 39
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 9 -----
+Parent ID: null
+Key: 21988
+Key: 26455
+Key: 26455
+Key: 26455
+Key: 26455
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 8
+Pointer: 8
+Pointer: 40
+Pointer: 40
+Pointer: 40
+Pointer: 40
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 10 -----
+Parent ID: null
+Key: 17283
+Key: 17283
+Key: 17283
+Key: 17283
+Key: 17283
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 6
+Pointer: 28
+Pointer: 28
+Pointer: 28
+Pointer: 28
+Pointer: 28
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 11 -----
+Parent ID: 25
+Key: 55852
+Key: 58071
+Key: 62314
+Key: 62917
+Key: 63968
+Key: 65685
+Key: 66613
+Key: 67866
+Key: 0
+Pointer: 55852
+Pointer: 58071
+Pointer: 62314
+Pointer: 62917
+Pointer: 63968
+Pointer: 65685
+Pointer: 66613
+Pointer: 67866
+Pointer: 0
+Pointer: 0
+----- InternalNode 12 -----
+Parent ID: null
+Key: 55852
+Key: 68684
+Key: 68684
+Key: 68684
+Key: 68684
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 11
+Pointer: 11
+Pointer: 16
+Pointer: 16
+Pointer: 16
+Pointer: 16
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 13 -----
+Parent ID: 0
+Key: 91301
+Key: 98901
+Key: 99076
+Key: 99151
+Key: 99675
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 91301
+Pointer: 98901
+Pointer: 99076
+Pointer: 99151
+Pointer: 99675
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 14 -----
+Parent ID: 15
+Key: 71897
+Key: 71903
+Key: 72033
+Key: 72863
+Key: 73528
+Key: 75298
+Key: 0
+Key: 0
+Key: 0
+Pointer: 71897
+Pointer: 71903
+Pointer: 72033
+Pointer: 72863
+Pointer: 73528
+Pointer: 75298
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 15 -----
+Parent ID: null
+Key: 71897
+Key: 75688
+Key: 75688
+Key: 75688
+Key: 75688
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 14
+Pointer: 14
+Pointer: 37
+Pointer: 37
+Pointer: 37
+Pointer: 37
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 16 -----
+Parent ID: 17
+Key: 68684
+Key: 69190
+Key: 69405
+Key: 69537
+Key: 70056
+Key: 70669
+Key: 70902
+Key: 0
+Key: 0
+Pointer: 68684
+Pointer: 69190
+Pointer: 69405
+Pointer: 69537
+Pointer: 70056
+Pointer: 70669
+Pointer: 70902
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 17 -----
+Parent ID: null
+Key: 68684
+Key: 71897
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 16
+Pointer: 16
+Pointer: 14
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 18 -----
+Parent ID: null
+Key: 68684
+Key: 71897
+Key: 75688
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 17
+Pointer: 17
+Pointer: 15
+Pointer: 38
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- LeafNode 19 -----
+Parent ID: 20
+Key: 31934
+Key: 32417
+Key: 33661
+Key: 33889
+Key: 34274
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 31934
+Pointer: 32417
+Pointer: 33661
+Pointer: 33889
+Pointer: 34274
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 20 -----
+Parent ID: null
+Key: 31934
+Key: 36477
+Key: 36477
+Key: 36477
+Key: 36477
+Key: 0
+Key: 0
+Key: 0
+Key: 0
+Pointer: 19
+Pointer: 19
+Pointer: 32
+Pointer: 32
+Pointer: 32
+Pointer: 32
+Pointer: 0
+Pointer: 0
+Pointer: 0
+Pointer: 0
+----- InternalNode 21

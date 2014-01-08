@@ -1,0 +1,202 @@
+---START OF TEST PROGRAM---
+Generating 23 unique, random <key, value> pairs to use for testing.
+Running test sequence 1...
+Test sequence information
+Block size: 45 bytes
+Node size: 4
+Amount of insertions: 10000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 1524 milliseconds.
+Test sequence 1 query phase completed in 1720 milliseconds.
+Inserted and queried 10000 keys with 60037 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 301 bytes
+Node size: 36
+Amount of insertions: 10000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 565 milliseconds.
+Test sequence 1 query phase completed in 231 milliseconds.
+Inserted and queried 10000 keys with 40023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 557 bytes
+Node size: 68
+Amount of insertions: 10000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 624 milliseconds.
+Test sequence 1 query phase completed in 423 milliseconds.
+Inserted and queried 10000 keys with 40023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 813 bytes
+Node size: 100
+Amount of insertions: 10000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 667 milliseconds.
+Test sequence 1 query phase completed in 493 milliseconds.
+Inserted and queried 10000 keys with 40023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 45 bytes
+Node size: 4
+Amount of insertions: 20000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 1128 milliseconds.
+Test sequence 1 query phase completed in 480 milliseconds.
+Inserted and queried 20000 keys with 120037 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 301 bytes
+Node size: 36
+Amount of insertions: 20000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 874 milliseconds.
+Test sequence 1 query phase completed in 438 milliseconds.
+Inserted and queried 20000 keys with 80023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 557 bytes
+Node size: 68
+Amount of insertions: 20000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 1132 milliseconds.
+Test sequence 1 query phase completed in 644 milliseconds.
+Inserted and queried 20000 keys with 80023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 813 bytes
+Node size: 100
+Amount of insertions: 20000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 1377 milliseconds.
+Test sequence 1 query phase completed in 848 milliseconds.
+Inserted and queried 20000 keys with 80023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 45 bytes
+Node size: 4
+Amount of insertions: 30000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 1423 milliseconds.
+Test sequence 1 query phase completed in 719 milliseconds.
+Inserted and queried 30000 keys with 180037 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 301 bytes
+Node size: 36
+Amount of insertions: 30000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 1299 milliseconds.
+Test sequence 1 query phase completed in 635 milliseconds.
+Inserted and queried 30000 keys with 120023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 557 bytes
+Node size: 68
+Amount of insertions: 30000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 1655 milliseconds.
+Test sequence 1 query phase completed in 940 milliseconds.
+Inserted and queried 30000 keys with 120023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 813 bytes
+Node size: 100
+Amount of insertions: 30000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 1983 milliseconds.
+Test sequence 1 query phase completed in 1268 milliseconds.
+Inserted and queried 30000 keys with 120023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 45 bytes
+Node size: 4
+Amount of insertions: 40000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 1789 milliseconds.
+Test sequence 1 query phase completed in 980 milliseconds.
+Inserted and queried 40000 keys with 240037 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 301 bytes
+Node size: 36
+Amount of insertions: 40000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 1779 milliseconds.
+Test sequence 1 query phase completed in 874 milliseconds.
+Inserted and queried 40000 keys with 160023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 557 bytes
+Node size: 68
+Amount of insertions: 40000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 2198 milliseconds.
+Test sequence 1 query phase completed in 1272 milliseconds.
+Inserted and queried 40000 keys with 160023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Running test sequence 1...
+Test sequence information
+Block size: 813 bytes
+Node size: 100
+Amount of insertions: 40000
+Data source: Randomized data
+Description: Random key insertions with no duplicates and querying of every key.
+Test sequence 1 insertion phase completed in 2659 milliseconds.
+Test sequence 1 query phase completed in 1656 milliseconds.
+Inserted and queried 40000 keys with 160023 number of disk accesses.
+Deleting index file for next run: true
+--------------
+Result for test sequence 1 (Insert all/Query all) (in ms):
+K/B;45;301;557;813
+10000;1524/1720;565/231;624/423;667/493;
+20000;1128/480;874/438;1132/644;1377/848;
+30000;1423/719;1299/635;1655/940;1983/1268;
+40000;1789/980;1779/874;2198/1272;2659/1656;
+
+---END OF TEST PROGRAM---

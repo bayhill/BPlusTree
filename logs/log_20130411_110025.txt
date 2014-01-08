@@ -1,0 +1,26 @@
+---PROGRAM START---
+Dumping index file to console.. 
+--- HEADER INFO ---
+Block size: 64
+Key size: 4
+Pointer size: 4
+Root ID: 1
+Root is Leaf: true
+Tree Order: (not stored in header): 6
+--- STOP HEADER INFO ---
+----- LeafNode 1 -----
+Parent ID: 0
+Key: 14558
+Key: 21405
+Key: 40488
+Key: 41932
+Key: 68480
+Key: 0
+Pointer: 14558
+Pointer: 21405
+Pointer: 40488
+Pointer: 41932
+Pointer: 68480
+Pointer: 0
+Pointer: 0
+---PROGRAM EXIT---
